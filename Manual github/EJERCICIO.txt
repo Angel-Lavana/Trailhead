@@ -1,0 +1,39 @@
+Practica:	Todo el directorio de tu Trailhead pasarlo hasta GitHub
+
+1.- Conectar vscode con trailhead
+	-Se crea el proyecto, realizas la conexión descarga alguna clase
+2.- Con esa estructura que tienes en tu local, genera tu repositorio en GitHub (Utiliza Vscode, para hacerlo)
+	-En el directrio del proyecto creado ejecuta en la terminal 
+		git init		(Debe aparecer una carpata oculta .git)
+	-Subir la estructura al área de preparación
+		Ejecuta <git add .> luego <git commit -m "Algún mensaje"> 
+3.- Entrar a GitHub, darte de alta, crear tu token y generar tu primer repositorio. (Algunos pasos no aplican si ya tienes tu repositorio)
+	-Crear tu repositorio, (Al crear el repo aparecen las lineas git de abajo), ejecutarlas en la terminal.
+		git remote add origin https://github.com/Angel-Lavana/principal.git			---> Este dato cambia dependiendo del repositorio creado (Conexión remota)
+		git branch -M main				--> 	Te posiciona en la rama Main
+		git push -u origin main			--> 	Se realiza el push del paso 2 (Se realizo add y el commit)
+4.- Hasta este punto Ya se generó la estructura en el Repositorio de GitHub
+		
+
+		
+		
+Comandos
+	clear					Lismpia la terminal
+	git init					Tu carpeta local la combiertes en una carpeta versionada (Repositorio local)
+	git add .				Todos los cambios que se realizaron agregarlos al área de preparación
+	git add fileName	Si solo quieres agregar un archivo es especifico (Si hay espacios en el nombre encerrarlo en comillas "file name")
+									Nota: Debes estar posicionado en el directorio donde esta el archivo
+	git commit -m		Pasarlo al listo para desplegar
+	git push 				Subir los cambios a la rama (Puedes especificar el push a una rama en especifico)
+	git push origin <feature/cambios-locales>	Si hay varias ramas puedes especificar a cual subir los cambios 
+
+
+	git clone <URL>	Clonar localmente desde GitHub 
+	git pull origin <feature/cambios-locales>		Realizar un pull de una rama en especifico
+	git checkout <feature/cambios-locales>		Cambiarte de ramas
+	git branch -a		Te permite ver las ramas de tu repositorio (Incluyendo en la que estas posicionado)
+	git branch			Muestra la rama en que estan posicionado.
+	git log --oneline 	Puedes ver los commit realizados (Todo el historico)
+	git status -s			Permite ver si el archivo fue modificado
+	
+	
